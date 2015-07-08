@@ -1,0 +1,43 @@
+Mediciones revision 24
+
+real	0m48.285s
+user	0m15.144s
+sys	0m8.793s
+
+Mediciones revision 30
+
+real	0m43.132s
+user	0m12.267s
+sys	0m6.037s
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ms/call  ms/call  name    
+ 90.88      0.48     0.48       32    15.05    16.46  readFile
+  5.68      0.51     0.03 24068128     0.00     0.00  isLineEmpty
+  2.84      0.53     0.02 24068064     0.00     0.00  shouldFormat
+  0.95      0.53     0.01                             readFiles
+  0.00      0.53     0.00                             __do_global_dtors_aux
+  0.00      0.53     0.00                             __do_global_dtors_aux_fini_array_entry
+  0.00      0.53     0.00                             __frame_dummy_init_array_entry
+  0.00      0.53     0.00                             __gmon_start__
+  0.00      0.53     0.00                             __libc_csu_fini
+  0.00      0.53     0.00                             __libc_csu_init
+  0.00      0.53     0.00                             _fini
+  0.00      0.53     0.00                             _init
+  0.00      0.53     0.00                             _start
+  0.00      0.53     0.00                             applyLineHeader
+  0.00      0.53     0.00                             atexit
+  0.00      0.53     0.00                             blankLinesToPrint
+  0.00      0.53     0.00                             data_start
+  0.00      0.53     0.00                             deregister_tm_clones
+  0.00      0.53     0.00                             etext
+  0.00      0.53     0.00                             frame_dummy
+  0.00      0.53     0.00                             freeOptions
+  0.00      0.53     0.00                             ignoreEquals
+  0.00      0.53     0.00                             main
+  0.00      0.53     0.00                             parseOptions
+  0.00      0.53     0.00                             printHelp
+  0.00      0.53     0.00                             register_tm_clones
+  0.00      0.53     0.00                             startsWith
+

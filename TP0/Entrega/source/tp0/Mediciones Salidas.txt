@@ -1,0 +1,43 @@
+-O3
+
+time ./tp0 -s="-->" -v 1 --line-increment=1 inputlong.txt inputlong.txt inputlong.txt inputlong.txt inputlong.txt inputlong.txt inputlong.txt inputlong.txt inputlong.txt inputlong.txt inputlong.txt inputlong.txt inputlong.txt inputlong.txt inputlong.txt inputlong.txt inputlong.txt inputlong.txt inputlong.txt inputlong.txt inputlong.txt inputlong.txt inputlong.txt inputlong.txt inputlong.txt inputlong.txt inputlong.txt inputlong.txt inputlong.txt inputlong.txt inputlong.txt inputlong.txt > output.txt
+
+real	0m48.285s
+user	0m15.144s
+sys	0m8.793s
+
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ms/call  ms/call  name    
+ 79.92      0.51     0.51       32    15.98    19.43  readFile
+  7.05      0.56     0.05 24068128     0.00     0.00  isLineEmpty
+  5.48      0.59     0.04 24068064     0.00     0.00  shouldFormat
+  4.70      0.62     0.03 24068064     0.00     0.00  formatLine
+  3.13      0.64     0.02                             readFiles
+  0.00      0.64     0.00                             __do_global_dtors_aux
+  0.00      0.64     0.00                             __do_global_dtors_aux_fini_array_entry
+  0.00      0.64     0.00                             __frame_dummy_init_array_entry
+  0.00      0.64     0.00                             __gmon_start__
+  0.00      0.64     0.00                             __libc_csu_fini
+  0.00      0.64     0.00                             __libc_csu_init
+  0.00      0.64     0.00                             _fini
+  0.00      0.64     0.00                             _init
+  0.00      0.64     0.00                             _start
+  0.00      0.64     0.00                             atexit
+  0.00      0.64     0.00                             blankLinesToPrint
+  0.00      0.64     0.00                             data_start
+  0.00      0.64     0.00                             deregister_tm_clones
+  0.00      0.64     0.00                             etext
+  0.00      0.64     0.00                             frame_dummy
+  0.00      0.64     0.00                             freeOptions
+  0.00      0.64     0.00                             ignoreEquals
+  0.00      0.64     0.00                             main
+  0.00      0.64     0.00                             parseOptions
+  0.00      0.64     0.00                             printHelp
+  0.00      0.64     0.00                             printLine
+  0.00      0.64     0.00                             printUnformatted
+  0.00      0.64     0.00                             register_tm_clones
+  0.00      0.64     0.00                             startsWith
+
